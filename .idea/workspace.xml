@@ -1,0 +1,1423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbdf7fe4-2f51-4e34-a268-e365c0043a7f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/thriftCompiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/message-thrift-python-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/message/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/message/api/MessageService-remote" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/message/api/MessageService.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/message/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/message/api/constants.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/message/api/ttypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/message/message_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/thrift/gen-code.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/thrift/message.thrift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/src/main/java/com/xujun/thrift/massage/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$AsyncClient$Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$AsyncClient$sendEmailMessage_call.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$AsyncClient$sendMobileMessage_call.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$AsyncClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$AsyncIface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$AsyncProcessor$sendEmailMessage$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$AsyncProcessor$sendEmailMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$AsyncProcessor$sendMobileMessage$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$AsyncProcessor$sendMobileMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$AsyncProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$Client$Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$Iface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$Processor$sendEmailMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$Processor$sendMobileMessage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$Processor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendEmailMessage_args$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendEmailMessage_args$sendEmailMessage_argsStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendEmailMessage_args$sendEmailMessage_argsStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendEmailMessage_args$sendEmailMessage_argsTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendEmailMessage_args$sendEmailMessage_argsTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendEmailMessage_args.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendEmailMessage_result$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendEmailMessage_result$sendEmailMessage_resultStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendEmailMessage_result$sendEmailMessage_resultStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendEmailMessage_result$sendEmailMessage_resultTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendEmailMessage_result$sendEmailMessage_resultTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendEmailMessage_result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendMobileMessage_args$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendMobileMessage_args$sendMobileMessage_argsStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendMobileMessage_args$sendMobileMessage_argsStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendMobileMessage_args$sendMobileMessage_argsTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendMobileMessage_args$sendMobileMessage_argsTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendMobileMessage_args.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendMobileMessage_result$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendMobileMessage_result$sendMobileMessage_resultStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendMobileMessage_result$sendMobileMessage_resultStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendMobileMessage_result$sendMobileMessage_resultTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendMobileMessage_result$sendMobileMessage_resultTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService$sendMobileMessage_result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/classes/com/xujun/thrift/massage/MessageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service-client/src/main/java/com/xujun/user/client/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/ServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/Utils/FastJsonRedisSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/redis/RedisClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/response/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/response/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/thrift/ServicePeovider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/src/main/resources/redis" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/META-INF/user-edge-service.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/ServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/Utils/FastJsonRedisSerializer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/redis/RedisClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/redis/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/response/LoginResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/response/Response.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/thrift/ServicePeovider$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/thrift/ServicePeovider$ServiceType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/thrift/ServicePeovider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/redis/data/dump.rdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/redis/redis.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/redis/redisStart.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-edge-service/user-edge-service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/src/main/java/com/xujun/thrift/user/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/src/main/java/com/xujun/thrift/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/src/main/java/com/xujun/thrift/user/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$UserInfoStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$UserInfoStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$UserInfoTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$UserInfoTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient$Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient$getUserById_call.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient$getUserByName_call.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient$regiserUser_call.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncIface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$getUserById$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$getUserById.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$getUserByName$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$getUserByName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$regiserUser$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$regiserUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Client$Factory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Iface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Processor$getUserById.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Processor$getUserByName.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Processor$regiserUser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Processor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$getUserById_argsStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$getUserById_argsStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$getUserById_argsTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$getUserById_argsTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$getUserById_resultStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$getUserById_resultStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$getUserById_resultTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$getUserById_resultTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$getUserByName_argsStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$getUserByName_argsStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$getUserByName_argsTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$getUserByName_argsTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$getUserByName_resultStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$getUserByName_resultStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$getUserByName_resultTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$getUserByName_resultTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$regiserUser_argsStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$regiserUser_argsStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$regiserUser_argsTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$regiserUser_argsTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$_Fields.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$regiserUser_resultStandardScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$regiserUser_resultStandardSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$regiserUser_resultTupleScheme.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$regiserUser_resultTupleSchemeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/dto/UserDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/thrift/gen-code.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/thrift/user_service.thrift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/ServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/thrift/ThriftServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/CreateMysqlByDocker.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/conf/my.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_1.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_10.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_2.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_3.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_4.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_5.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_6.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_7.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_8.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_9.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/auto.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/binlog.000004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/binlog.000005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/binlog.000006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/binlog.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/ca-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/ca.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/client-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/client-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/db_user/pe_user.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/ib_buffer_pool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/ib_logfile0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/ib_logfile1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/ibdata1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/ibtmp1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/mysql.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/mysql/general_log.CSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/mysql/general_log.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/mysql/general_log_201.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/mysql/slow_log.CSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/mysql/slow_log.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/mysql/slow_log_202.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/accounts_138.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/cond_instances_77.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/data_lock_waits_154.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/data_locks_153.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_errors_su_132.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_errors_su_133.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_errors_su_134.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_errors_su_135.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_errors_su_136.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_cu_104.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_hi_105.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_hi_106.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_su_107.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_su_108.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_su_109.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_su_110.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_su_111.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_112.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_113.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_114.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_115.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_116.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_117.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_118.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_119.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_120.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_121.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_122.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_123.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_124.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_125.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_126.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_127.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_128.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_129.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_130.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_131.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_cur_78.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_his_79.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_his_80.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_sum_81.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_sum_82.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_sum_83.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_sum_84.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_sum_85.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_sum_86.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/file_instances_87.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/file_summary_by__88.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/file_summary_by__89.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/global_status_172.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/global_variables_175.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/host_cache_90.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/hosts_139.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/keyring_keys_145.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/log_status_165.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/memory_summary_b_147.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/memory_summary_b_148.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/memory_summary_b_149.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/memory_summary_b_150.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/memory_summary_g_146.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/metadata_locks_152.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/mutex_instances_91.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/objects_summary__92.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/performance_time_93.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/persisted_variab_178.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/prepared_stateme_166.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_appl_158.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_appl_159.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_appl_160.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_appl_161.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_appl_163.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_appl_164.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_conn_155.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_conn_157.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_grou_156.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_grou_162.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/rwlock_instances_94.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/session_account__144.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/session_connect__143.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/session_status_173.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/session_variable_176.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/setup_actors_95.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/setup_consumers_96.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/setup_instrument_97.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/setup_objects_98.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/setup_threads_99.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/socket_instances_140.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/socket_summary_b_141.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/socket_summary_b_142.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/status_by_accoun_168.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/status_by_host_169.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/status_by_thread_170.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/status_by_user_171.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/table_handles_151.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/table_io_waits_s_100.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/table_io_waits_s_101.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/table_lock_waits_102.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/threads_103.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/user_defined_fun_179.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/user_variables_b_167.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/users_137.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/variables_by_thr_174.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/variables_info_177.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/server-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/server-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/sys/sys_config.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/undo_001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/undo_002" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/com/xujun/user/ServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/com/xujun/user/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/com/xujun/user/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/com/xujun/user/thrift/ThriftServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/CreateMysqlByDocker.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/conf/my.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_1.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_10.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_2.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_3.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_4.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_5.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_6.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_7.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_8.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_9.ibt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/auto.cnf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/binlog.000004" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/binlog.000005" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/binlog.000006" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/binlog.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/ca-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/ca.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/client-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/client-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/db_user/pe_user.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/ib_buffer_pool" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/ib_logfile0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/ib_logfile1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/ibdata1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/ibtmp1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/mysql.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/mysql/general_log.CSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/mysql/general_log.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/mysql/general_log_201.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/mysql/slow_log.CSM" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/mysql/slow_log.CSV" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/mysql/slow_log_202.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/accounts_138.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/cond_instances_77.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/data_lock_waits_154.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/data_locks_153.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_errors_su_132.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_errors_su_133.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_errors_su_134.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_errors_su_135.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_errors_su_136.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_cu_104.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_hi_105.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_hi_106.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_su_107.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_su_108.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_su_109.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_su_110.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_su_111.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_112.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_113.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_114.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_115.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_116.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_117.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_118.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_119.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_120.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_121.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_122.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_123.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_124.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_125.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_126.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_127.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_128.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_129.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_130.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_131.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_cur_78.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_his_79.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_his_80.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_sum_81.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_sum_82.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_sum_83.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_sum_84.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_sum_85.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_sum_86.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/file_instances_87.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/file_summary_by__88.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/file_summary_by__89.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/global_status_172.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/global_variables_175.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/host_cache_90.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/hosts_139.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/keyring_keys_145.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/log_status_165.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/memory_summary_b_147.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/memory_summary_b_148.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/memory_summary_b_149.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/memory_summary_b_150.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/memory_summary_g_146.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/metadata_locks_152.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/mutex_instances_91.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/objects_summary__92.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/performance_time_93.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/persisted_variab_178.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/prepared_stateme_166.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_appl_158.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_appl_159.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_appl_160.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_appl_161.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_appl_163.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_appl_164.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_conn_155.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_conn_157.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_grou_156.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_grou_162.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/rwlock_instances_94.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/session_account__144.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/session_connect__143.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/session_status_173.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/session_variable_176.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/setup_actors_95.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/setup_consumers_96.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/setup_instrument_97.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/setup_objects_98.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/setup_threads_99.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/socket_instances_140.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/socket_summary_b_141.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/socket_summary_b_142.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/status_by_accoun_168.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/status_by_host_169.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/status_by_thread_170.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/status_by_user_171.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/table_handles_151.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/table_io_waits_s_100.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/table_io_waits_s_101.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/table_lock_waits_102.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/threads_103.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/user_defined_fun_179.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/user_variables_b_167.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/users_137.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/variables_by_thr_174.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/variables_info_177.sdi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/private_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/public_key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/server-cert.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/server-key.pem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/sys/sys_config.ibd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/undo_001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/undo_002" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/message-thrift-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/user-thrift-service-api/target/" />
+    <ignored path="$PROJECT_DIR$/user-thrift-service/target/" />
+    <ignored path="$PROJECT_DIR$/user-edge-service/target/" />
+    <ignored path="$PROJECT_DIR$/user-edge-service-client/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1575">
+              <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-edge-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="915">
+              <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user-thrift-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="20" column="21" selection-start-line="17" selection-start-column="8" selection-end-line="20" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/response/Response.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="98" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="98" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/thrift/ServicePeovider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/Utils/FastJsonRedisSerializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-edge-service-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user-edge-service-client/src/main/java/com/xujun/user/client/LoginFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.62/fastjson-1.2.62-sources.jar!/com/alibaba/fastjson/JSON.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7785">
+              <caret line="558" column="24" selection-start-line="558" selection-start-column="24" selection-end-line="558" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>main</find>
+      <find>dir</find>
+      <find>appendonly</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/message-thrift-python-service/thrift/message.thrift" />
+        <option value="$PROJECT_DIR$/message-thrift-python-service/message/api/MessageService-remote" />
+        <option value="$PROJECT_DIR$/message-thrift-python-service/thrift/gen-code.sh" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/user-thrift-service-api/thrift/user_service.thrift" />
+        <option value="$PROJECT_DIR$/user-thrift-service-api/thrift/gen-code.sh" />
+        <option value="$PROJECT_DIR$/message-thrift-python-service/message/api/test.py" />
+        <option value="$PROJECT_DIR$/message-thrift-python-service/message/api/MessageService.py" />
+        <option value="$PROJECT_DIR$/user-thrift-service/src/main/resources/CreateMysqlByDocker.sh" />
+        <option value="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/conf/my.cnf" />
+        <option value="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/CreateMysqlByDocker.sh" />
+        <option value="$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/ServiceApplication.java" />
+        <option value="$PROJECT_DIR$/user-edge-service/src/main/resources/redis/redis.conf" />
+        <option value="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/response/LoginResponse.java" />
+        <option value="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/Utils/FastJsonRediaSerializer.java" />
+        <option value="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/redis/RedisClient.java" />
+        <option value="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/redis/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/user-edge-service/src/main/resources/redis/start.sh" />
+        <option value="$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/thrift/ThriftServer.java" />
+        <option value="$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/service/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/ServiceApplication.java" />
+        <option value="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/dto/UserDTO.java" />
+        <option value="$PROJECT_DIR$/user-thrift-service/src/test/java/test.java" />
+        <option value="$PROJECT_DIR$/user-edge-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/response/Response.java" />
+        <option value="$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/message-thrift-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/user-thrift-service/pom.xml" />
+        <option value="$PROJECT_DIR$/user-thrift-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/message-thrift-python-service/message/message_service.py" />
+        <option value="$PROJECT_DIR$/user-thrift-service-api/src/main/java/com/xujun/thrift/user/dto/UserDTO.java" />
+        <option value="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/user-edge-service/pom.xml" />
+        <option value="$PROJECT_DIR$/user-edge-service-client/pom.xml" />
+        <option value="$PROJECT_DIR$/user-edge-service-client/src/main/java/com/xujun/user/client/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/thrift/ServicePeovider.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-37" />
+    <option name="y" value="-1054" />
+    <option name="width" value="1576" />
+    <option name="height" value="821" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.PYTHON_MODULE" value="Python 3.7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user" />
+      <recent name="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xujun.thrift.user.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user-edge-service/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/user-edge-service/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.22157677" />
+  </component>
+  <component name="RunManager" selected="Python.message_service">
+    <configuration name="redisStart.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="user-edge-service" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user-edge-service/src/main/resources/redis" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user-edge-service/src/main/resources/redis/redisStart.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="start.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="user-edge-service" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user-edge-service/src/main/resources/redis" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user-edge-service/src/main/resources/redis/start.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="message_service" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="message-thrift-python-service" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/message-thrift-python-service/message" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/message-thrift-python-service/message/message_service.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="user-dege-service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="user-edge-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xujun.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xujun.user.ServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="user-thrift-service" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="user-thrift-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xujun.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xujun.user.ServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Bash.start.sh" />
+      <item itemvalue="Bash.redisStart.sh" />
+      <item itemvalue="Python.message_service" />
+      <item itemvalue="Spring Boot.user-thrift-service" />
+      <item itemvalue="Spring Boot.user-dege-service" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.user-thrift-service" />
+        <item itemvalue="Python.message_service" />
+        <item itemvalue="Spring Boot.user-dege-service" />
+        <item itemvalue="Bash.redisStart.sh" />
+        <item itemvalue="Bash.start.sh" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbdf7fe4-2f51-4e34-a268-e365c0043a7f" name="Default Changelist" comment="" />
+      <created>1562054730897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562054730897</updated>
+      <workItem from="1562054757441" duration="532000" />
+      <workItem from="1562055310845" duration="287000" />
+      <workItem from="1562055618736" duration="8133000" />
+      <workItem from="1571298625835" duration="11203000" />
+      <workItem from="1573201125536" duration="260000" />
+      <workItem from="1573437351353" duration="9206000" />
+      <workItem from="1573523882287" duration="1232000" />
+      <workItem from="1574060540264" duration="2796000" />
+      <workItem from="1574134505718" duration="420000" />
+      <workItem from="1574312257753" duration="1196000" />
+      <workItem from="1575951212572" duration="6142000" />
+      <workItem from="1576040234028" duration="5278000" />
+      <workItem from="1576466044498" duration="28623000" />
+      <workItem from="1577260161261" duration="255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="75563000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-37" y="-1054" width="1576" height="821" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49275362" visible="true" weight="0.2542373" />
+      <window_info id="Structure" order="1" sideWeight="0.5072464" side_tool="true" weight="0.30738038" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.5736544" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4992636" weight="0.4981595" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4992636" weight="0.32901135" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49878347" visible="true" weight="0.39235127" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50121653" side_tool="true" weight="0.32901135" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32901135" />
+      <window_info anchor="bottom" id="Spring" order="14" />
+      <window_info anchor="bottom" id="Java Enterprise" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3298969" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/microservice$MessageService.coverage" NAME="MessageService Coverage Results" MODIFIED="1571300252021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/message-thrift-python-service/message/api" />
+    <SUITE FILE_PATH="coverage/microservice$message_service.coverage" NAME="message_service Coverage Results" MODIFIED="1576720111520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/message-thrift-python-service/message" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/redis/redis.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/test/java/test.java" />
+    <entry file="file://$PROJECT_DIR$/user-thrift-service-api/thrift/gen-code.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="65" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service-api/thrift/user_service.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service-api/src/main/java/com/xujun/thrift/user/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/service/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/dto/UserDTO.java" />
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/redis/redisStart.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/ServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/CreateMysqlByDocker.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-128">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/ServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/thrift/transport/TSocket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="155" column="8" selection-start-line="155" selection-start-column="8" selection-end-line="155" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-43">
+          <caret line="204" column="8" selection-start-line="204" selection-start-column="8" selection-end-line="204" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/thrift/server/TServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="75" column="44" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/message-thrift-python-service.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/message/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/message/api/ttypes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#142#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/message/api/MessageService-remote">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/message/api/MessageService.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1860">
+          <caret line="124" column="33" lean-forward="true" selection-start-line="124" selection-start-column="33" selection-end-line="124" selection-end-column="33" />
+          <folding>
+            <element signature="e#142#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/message/api/constants.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/thrift/gen-code.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/thrift/message.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/thrift/ThriftServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-service-api/src/main/java/com/xujun/thrift/massage/MessageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          <folding>
+            <element signature="e#22621#22673#0" expanded="true" />
+            <element signature="e#38541#38593#0" expanded="true" />
+            <element signature="e#51708#51760#0" expanded="true" />
+            <element signature="e#67532#67584#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib/python3.7/smtplib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="787" column="8" selection-start-line="787" selection-start-column="8" selection-end-line="787" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0.jar!/org/apache/thrift/transport/TSocket.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
+          <folding>
+            <element signature="e#1476#1477#0" expanded="true" />
+            <element signature="e#1511#1512#0" expanded="true" />
+            <element signature="e#1569#1570#0" expanded="true" />
+            <element signature="e#1619#1620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/thrift/libthrift/0.12.0/libthrift-0.12.0-sources.jar!/org/apache/thrift/transport/TSocket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/message/message_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+          <folding>
+            <element signature="e#18#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service-api/src/main/java/com/xujun/thrift/user/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service-api/src/main/java/com/xujun/thrift/user/dto/UserDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/redis/RedisClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/redis/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/response/LoginResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#243#244#0" expanded="true" />
+            <element signature="e#285#286#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.62/fastjson-1.2.62.jar!/com/alibaba/fastjson/JSON.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="376" column="24" selection-start-line="376" selection-start-column="24" selection-end-line="376" selection-end-column="24" />
+          <folding>
+            <element signature="e#15505#15506#0" expanded="true" />
+            <element signature="e#15552#15553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1575">
+          <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/response/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="98" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/thrift/ServicePeovider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/Utils/FastJsonRedisSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="29" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service-client/src/main/java/com/xujun/user/client/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.62/fastjson-1.2.62-sources.jar!/com/alibaba/fastjson/JSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7785">
+          <caret line="558" column="24" selection-start-line="558" selection-start-column="24" selection-end-line="558" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="20" column="21" selection-start-line="17" selection-start-column="8" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>message-thrift-service-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
