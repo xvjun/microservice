@@ -546,11 +546,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Bash.CreateMysqlByDocker.sh" />
+      <item itemvalue="Bash.zookeeper-start.sh" />
       <item itemvalue="Python.message_service" />
       <item itemvalue="Spring Boot.user-thrift-service" />
       <item itemvalue="Spring Boot.user-dege-service" />
-      <item itemvalue="Bash.CreateMysqlByDocker.sh" />
-      <item itemvalue="Bash.zookeeper-start.sh" />
     </list>
     <recent_temporary>
       <list>
@@ -643,10 +643,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/microservice$MessageService.coverage" NAME="MessageService Coverage Results" MODIFIED="1571300252021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/message-thrift-python-service/message/api" />
-    <SUITE FILE_PATH="coverage/microservice$message_service.coverage" NAME="message_service Coverage Results" MODIFIED="1576720111520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/message-thrift-python-service/message" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/user-thrift-service-api/thrift/gen-code.sh">
