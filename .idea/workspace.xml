@@ -1,7 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbdf7fe4-2f51-4e34-a268-e365c0043a7f" name="Default Changelist" comment="" />
+    <list default="true" id="bbdf7fe4-2f51-4e34-a268-e365c0043a7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-edge-service-client/src/main/java/com/xujun/user/client/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service-client/src/main/java/com/xujun/user/client/LoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-edge-service/src/main/resources/redis/data/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/redis/data/dump.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-edge-service/src/main/resources/redis/redis.conf" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/redis/redis.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-edge-service/src/main/resources/redis/redisStart.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/redis/redis-start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/CreateMysqlByDocker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/mysql-start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/conf/my.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/conf/my.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_1.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_10.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_2.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_3.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_3.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_4.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_4.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_5.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_5.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_6.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_6.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_7.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_8.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_9.ibt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/auto.cnf" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/auto.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/binlog.000004" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/binlog.000004" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/binlog.000005" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/binlog.000005" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/binlog.000006" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/binlog.000006" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/binlog.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/ca-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/ca-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/ca.pem" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/ca.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/client-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/client-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/client-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/client-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/db_user/pe_user.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/db_user/pe_user.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/ib_logfile0" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/ib_logfile1" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/ib_logfile1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/ibtmp1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/mysql.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/mysql/general_log.CSM" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/mysql/general_log.CSM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/mysql/general_log.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/mysql/general_log.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/mysql/general_log_201.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/mysql/general_log_201.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/mysql/slow_log.CSM" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/mysql/slow_log.CSM" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/mysql/slow_log.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/mysql/slow_log.CSV" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/mysql/slow_log_202.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/mysql/slow_log_202.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/accounts_138.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/accounts_138.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/cond_instances_77.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/cond_instances_77.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/data_lock_waits_154.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/data_lock_waits_154.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/data_locks_153.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/data_locks_153.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_errors_su_132.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_errors_su_132.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_errors_su_133.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_errors_su_133.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_errors_su_134.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_errors_su_134.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_errors_su_135.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_errors_su_135.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_errors_su_136.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_errors_su_136.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_cu_104.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_stages_cu_104.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_hi_105.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_stages_hi_105.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_hi_106.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_stages_hi_106.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_su_107.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_stages_su_107.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_su_108.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_stages_su_108.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_su_109.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_stages_su_109.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_su_110.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_stages_su_110.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_stages_su_111.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_stages_su_111.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_112.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_statement_112.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_113.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_statement_113.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_114.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_statement_114.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_115.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_statement_115.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_116.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_statement_116.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_117.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_statement_117.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_118.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_statement_118.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_119.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_statement_119.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_120.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_statement_120.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_121.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_statement_121.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_122.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_statement_122.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_statement_123.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_statement_123.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_124.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_transacti_124.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_125.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_transacti_125.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_126.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_transacti_126.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_127.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_transacti_127.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_128.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_transacti_128.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_129.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_transacti_129.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_130.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_transacti_130.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_transacti_131.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_transacti_131.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_cur_78.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_waits_cur_78.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_his_79.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_waits_his_79.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_his_80.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_waits_his_80.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_sum_81.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_waits_sum_81.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_sum_82.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_waits_sum_82.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_sum_83.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_waits_sum_83.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_sum_84.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_waits_sum_84.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_sum_85.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_waits_sum_85.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/events_waits_sum_86.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/events_waits_sum_86.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/file_instances_87.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/file_instances_87.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/file_summary_by__88.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/file_summary_by__88.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/file_summary_by__89.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/file_summary_by__89.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/global_status_172.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/global_status_172.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/global_variables_175.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/global_variables_175.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/host_cache_90.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/host_cache_90.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/hosts_139.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/hosts_139.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/keyring_keys_145.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/keyring_keys_145.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/log_status_165.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/log_status_165.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/memory_summary_b_147.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/memory_summary_b_147.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/memory_summary_b_148.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/memory_summary_b_148.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/memory_summary_b_149.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/memory_summary_b_149.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/memory_summary_b_150.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/memory_summary_b_150.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/memory_summary_g_146.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/memory_summary_g_146.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/metadata_locks_152.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/metadata_locks_152.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/mutex_instances_91.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/mutex_instances_91.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/objects_summary__92.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/objects_summary__92.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/performance_time_93.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/performance_time_93.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/persisted_variab_178.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/persisted_variab_178.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/prepared_stateme_166.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/prepared_stateme_166.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_appl_158.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/replication_appl_158.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_appl_159.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/replication_appl_159.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_appl_160.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/replication_appl_160.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_appl_161.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/replication_appl_161.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_appl_163.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/replication_appl_163.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_appl_164.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/replication_appl_164.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_conn_155.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/replication_conn_155.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_conn_157.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/replication_conn_157.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_grou_156.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/replication_grou_156.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/replication_grou_162.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/replication_grou_162.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/rwlock_instances_94.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/rwlock_instances_94.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/session_account__144.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/session_account__144.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/session_connect__143.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/session_connect__143.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/session_status_173.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/session_status_173.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/session_variable_176.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/session_variable_176.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/setup_actors_95.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/setup_actors_95.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/setup_consumers_96.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/setup_consumers_96.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/setup_instrument_97.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/setup_instrument_97.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/setup_objects_98.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/setup_objects_98.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/setup_threads_99.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/setup_threads_99.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/socket_instances_140.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/socket_instances_140.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/socket_summary_b_141.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/socket_summary_b_141.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/socket_summary_b_142.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/socket_summary_b_142.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/status_by_accoun_168.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/status_by_accoun_168.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/status_by_host_169.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/status_by_host_169.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/status_by_thread_170.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/status_by_thread_170.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/status_by_user_171.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/status_by_user_171.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/table_handles_151.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/table_handles_151.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/table_io_waits_s_100.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/table_io_waits_s_100.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/table_io_waits_s_101.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/table_io_waits_s_101.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/table_lock_waits_102.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/table_lock_waits_102.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/threads_103.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/threads_103.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/user_defined_fun_179.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/user_defined_fun_179.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/user_variables_b_167.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/user_variables_b_167.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/users_137.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/users_137.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/variables_by_thr_174.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/variables_by_thr_174.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/performance_schema/variables_info_177.sdi" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/performance_schema/variables_info_177.sdi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/private_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/private_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/public_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/public_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/server-cert.pem" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/server-cert.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/server-key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/server-key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/sys/sys_config.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/sys/sys_config.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/undo_001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/data/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/undo_002" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/message-thrift-service-api/target/" />
@@ -21,10 +171,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-edge-service/pom.xml">
+        <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+            <state relative-caret-position="156">
+              <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,7 +192,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/redis/redis.conf">
+        <entry file="file://$PROJECT_DIR$/docker-image/redis/redis.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
               <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
@@ -48,31 +201,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/redis/redisStart.sh">
+        <entry file="file://$PROJECT_DIR$/docker-image/redis/redis-start.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="3" selection-end-line="4" />
+            <state relative-caret-position="45">
+              <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/response/Response.java">
+        <entry file="file://$PROJECT_DIR$/docker-image/zookeeper/zookeeper-start.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="98" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="98" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/thrift/ServicePeovider.java">
+        <entry file="file://$PROJECT_DIR$/docker-image/mysql/mysql-start.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -101,8 +251,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user-edge-service-client/src/main/java/com/xujun/user/client/LoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+            <state relative-caret-position="282">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,8 +328,10 @@
         <option value="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/user-edge-service/pom.xml" />
         <option value="$PROJECT_DIR$/user-edge-service-client/pom.xml" />
-        <option value="$PROJECT_DIR$/user-edge-service-client/src/main/java/com/xujun/user/client/LoginFilter.java" />
         <option value="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/thrift/ServicePeovider.java" />
+        <option value="$PROJECT_DIR$/user-edge-service-client/src/main/java/com/xujun/user/client/LoginFilter.java" />
+        <option value="$PROJECT_DIR$/docker-image/zookeeper/zookeeper-start.sh" />
+        <option value="$PROJECT_DIR$/docker-image/redis/redis-start.sh" />
       </list>
     </option>
   </component>
@@ -190,14 +342,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-37" />
-    <option name="y" value="-1054" />
+    <option name="x" value="75" />
+    <option name="y" value="-914" />
     <option name="width" value="1576" />
     <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -211,45 +365,51 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-image" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-image" type="462c0819:PsiDirectoryNode" />
+              <item name="mysql" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice" type="462c0819:PsiDirectoryNode" />
-              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-image" type="462c0819:PsiDirectoryNode" />
               <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="docker-image" type="462c0819:PsiDirectoryNode" />
+              <item name="zookeeper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="user-thrift-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="user-thrift-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="user-thrift-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="user-thrift-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -277,16 +437,17 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user" />
-      <recent name="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/user-edge-service/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/user-edge-service/src/main/java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xujun.thrift.user.dto" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/user-edge-service/src/main/resources/templates" />
-      <recent name="$PROJECT_DIR$/user-edge-service/src/main/java" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker-image" />
+      <recent name="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user" />
+      <recent name="$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,28 +468,28 @@
     </option>
     <option name="contentProportion" value="0.22157677" />
   </component>
-  <component name="RunManager" selected="Python.message_service">
-    <configuration name="redisStart.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
-      <module name="user-edge-service" />
+  <component name="RunManager" selected="Bash.zookeeper-start.sh">
+    <configuration name="CreateMysqlByDocker.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="microservice" />
       <option name="INTERPRETER_OPTIONS" value="bash" />
       <option name="INTERPRETER_PATH" value="/usr/bin/env" />
       <option name="PROJECT_INTERPRETER" value="false" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user-edge-service/src/main/resources/redis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/docker-image/mysql" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user-edge-service/src/main/resources/redis/redisStart.sh" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/docker-image/mysql/CreateMysqlByDocker.sh" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="start.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
-      <module name="user-edge-service" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="" />
+    <configuration name="zookeeper-start.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="microservice" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
       <option name="PROJECT_INTERPRETER" value="false" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/user-edge-service/src/main/resources/redis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/docker-image/zookeeper" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/user-edge-service/src/main/resources/redis/start.sh" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/docker-image/zookeeper/zookeeper-start.sh" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -385,19 +546,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Bash.start.sh" />
-      <item itemvalue="Bash.redisStart.sh" />
       <item itemvalue="Python.message_service" />
       <item itemvalue="Spring Boot.user-thrift-service" />
       <item itemvalue="Spring Boot.user-dege-service" />
+      <item itemvalue="Bash.CreateMysqlByDocker.sh" />
+      <item itemvalue="Bash.zookeeper-start.sh" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Bash.zookeeper-start.sh" />
+        <item itemvalue="Bash.CreateMysqlByDocker.sh" />
         <item itemvalue="Spring Boot.user-thrift-service" />
         <item itemvalue="Python.message_service" />
         <item itemvalue="Spring Boot.user-dege-service" />
-        <item itemvalue="Bash.redisStart.sh" />
-        <item itemvalue="Bash.start.sh" />
       </list>
     </recent_temporary>
   </component>
@@ -424,12 +585,12 @@
       <workItem from="1575951212572" duration="6142000" />
       <workItem from="1576040234028" duration="5278000" />
       <workItem from="1576466044498" duration="28623000" />
-      <workItem from="1577260161261" duration="785000" />
+      <workItem from="1577260161261" duration="3202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76093000" />
+    <option name="totallyTimeSpent" value="78510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,9 +602,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-37" y="-1054" width="1576" height="821" extended-state="0" />
+    <frame x="75" y="-914" width="1576" height="821" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49275362" visible="true" weight="0.2542373" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49275362" visible="true" weight="0.2542373" />
       <window_info id="Structure" order="1" sideWeight="0.5072464" side_tool="true" weight="0.30738038" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -454,7 +615,7 @@
       <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.5736544" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4992636" weight="0.4981595" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4992636" weight="0.49716714" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -462,7 +623,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49878347" visible="true" weight="0.39235127" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49878347" visible="true" weight="0.39235127" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50121653" side_tool="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32901135" />
       <window_info anchor="bottom" id="Spring" order="14" />
@@ -488,7 +649,6 @@
     <SUITE FILE_PATH="coverage/microservice$message_service.coverage" NAME="message_service Coverage Results" MODIFIED="1576720111520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/message-thrift-python-service/message" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/test/java/test.java" />
     <entry file="file://$PROJECT_DIR$/user-thrift-service-api/thrift/gen-code.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -538,13 +698,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/resources/mysql/CreateMysqlByDocker.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -783,16 +936,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
-          <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/templates/login.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -837,16 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-edge-service-client/src/main/java/com/xujun/user/client/LoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.62/fastjson-1.2.62-sources.jar!/com/alibaba/fastjson/JSON.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7785">
@@ -861,17 +994,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/redis/redis.conf">
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service-client/src/main/java/com/xujun/user/client/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-image/redis/redis.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/redis/redisStart.sh">
+    <entry file="file://$PROJECT_DIR$/docker-image/mysql/mysql-start.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="3" selection-end-line="4" />
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-image/zookeeper/zookeeper-start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-image/redis/redis-start.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
         </state>
       </provider>
     </entry>
