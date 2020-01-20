@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: user-service
-  name: user-edge-service
+  name: user-service
   namespace: micro-service
 spec:
   ports:
@@ -39,6 +39,8 @@ spec:
       - name: user-service
         image: 172.27.160.10:8090/micro-service/user-service:latest
         imagePullPolicy: Always
+        command:
+          - "--mysql.address=172.27.233.58"
         resources:
           limits:
             cpu: 1000m
@@ -48,6 +50,8 @@ spec:
       - name: user-edge-service
         image: 172.27.160.10:8090/micro-service/user-edge-service:latest
         imagePullPolicy: Always
+        command:
+          - "--redis.address=172.27.233.58"
         resources:
           limits:
             cpu: 1000m

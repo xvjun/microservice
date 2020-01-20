@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbdf7fe4-2f51-4e34-a268-e365c0043a7f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-zuul/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway-zuul/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/zookeeper/zookeeper-start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/zookeeper/zookeeper-start.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-zuul/target/api-gateway-zuul-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/target/api-gateway-zuul-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-zuul/target/api-gateway-zuul-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/target/api-gateway-zuul-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway-zuul/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway-zuul/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-dubbo-service/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/course-edge-service/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/course-edge-service/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/k8s-yaml/service-config/course-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-yaml/service-config/course-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/k8s-yaml/service-config/user-service.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/k8s-yaml/service-config/user-service.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-python-service/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-python-service/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message-thrift-python-service/build_base.sh" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-python-service/build_base.sh" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,67 +38,91 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api-gateway-zuul/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="194">
+              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/k8s-yaml/service-config/course-service.yaml">
+        <entry file="file://$PROJECT_DIR$/k8s-yaml/service-config/user-service.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+            <state relative-caret-position="785">
+              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/k8s-yaml/service-config/message-service.yaml">
+        <entry file="file://$PROJECT_DIR$/message-thrift-python-service/message/message_service.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="25" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="38" selection-end-column="25" />
+            <state relative-caret-position="-382">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway-zuul/build.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-dubbo-service/build.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-dubbo-service/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/course-edge-service/build.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/k8s-yaml/service-config/user-service.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-380">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/k8s-yaml/service-config/api-gateway.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-image/redis/redis.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1036" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-image/redis/redis-start.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-image/zookeeper/zookeeper-start.sh">
+        <entry file="file://$PROJECT_DIR$/message-thrift-python-service/build.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
+              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/message-thrift-python-service/build_base.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway-zuul/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -156,11 +188,6 @@
         <option value="$PROJECT_DIR$/message-thrift-python-service/Dockerfile.base" />
         <option value="$PROJECT_DIR$/user-edge-service/Dockerfile" />
         <option value="$PROJECT_DIR$/user-thrift-service/Dockerfile" />
-        <option value="$PROJECT_DIR$/api-gateway-zuul/build.sh" />
-        <option value="$PROJECT_DIR$/course-dubbo-service/build.sh" />
-        <option value="$PROJECT_DIR$/course-edge-service/build.sh" />
-        <option value="$PROJECT_DIR$/message-thrift-python-service/build.sh" />
-        <option value="$PROJECT_DIR$/message-thrift-python-service/build_base.sh" />
         <option value="$PROJECT_DIR$/user-edge-service/build.sh" />
         <option value="$PROJECT_DIR$/user-thrift-service/build.sh" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
@@ -175,6 +202,11 @@
         <option value="$PROJECT_DIR$/api-gateway-zuul/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/k8s-yaml/service-config/course-service.yaml" />
         <option value="$PROJECT_DIR$/k8s-yaml/service-config/user-service.yaml" />
+        <option value="$PROJECT_DIR$/api-gateway-zuul/build.sh" />
+        <option value="$PROJECT_DIR$/course-dubbo-service/build.sh" />
+        <option value="$PROJECT_DIR$/course-edge-service/build.sh" />
+        <option value="$PROJECT_DIR$/message-thrift-python-service/build_base.sh" />
+        <option value="$PROJECT_DIR$/message-thrift-python-service/build.sh" />
       </list>
     </option>
   </component>
@@ -295,6 +327,21 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="course-dubbo-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="course-dubbo-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="course-edge-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -309,6 +356,64 @@
               <item name="course-edge-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="course-edge-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="course-edge-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="course-edge-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xujun" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="course-edge-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xujun" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="course-edge-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xujun" type="462c0819:PsiDirectoryNode" />
+              <item name="course" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="course-edge-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
@@ -344,6 +449,43 @@
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
               <item name="k8s-yaml" type="462c0819:PsiDirectoryNode" />
               <item name="service-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="message-thrift-python-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="message-thrift-python-service" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="user-edge-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -409,15 +551,15 @@
     </option>
     <option name="contentProportion" value="0.26203576" />
   </component>
-  <component name="RunManager" selected="Bash.build.sh (5)">
-    <configuration name="build.sh (1)" type="BashConfigurationType" factoryName="Bash" temporary="true">
-      <module name="course-dubbo-service" />
+  <component name="RunManager" selected="Bash.build.sh">
+    <configuration name="build_base.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="message-thrift-python-service" />
       <option name="INTERPRETER_OPTIONS" value="bash" />
       <option name="INTERPRETER_PATH" value="/usr/bin/env" />
       <option name="PROJECT_INTERPRETER" value="false" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/course-dubbo-service" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/message-thrift-python-service" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/course-dubbo-service/build.sh" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/message-thrift-python-service/build_base.sh" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -462,7 +604,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="build.sh (5)" type="BashConfigurationType" factoryName="Bash" temporary="true">
+    <configuration name="build.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
       <module name="user-thrift-service" />
       <option name="INTERPRETER_OPTIONS" value="bash" />
       <option name="INTERPRETER_PATH" value="/usr/bin/env" />
@@ -498,22 +640,22 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Bash.build.sh (1)" />
-      <item itemvalue="Bash.build.sh (2)" />
-      <item itemvalue="Bash.build.sh (3)" />
-      <item itemvalue="Bash.build.sh (4)" />
-      <item itemvalue="Bash.build.sh (5)" />
       <item itemvalue="Docker.message-thrift-python-service/Dockerfile" />
       <item itemvalue="Spring Boot.CourseEdgeServiceApplication" />
       <item itemvalue="Spring Boot.CourseDubboServiceApplication" />
+      <item itemvalue="Bash.build.sh (2)" />
+      <item itemvalue="Bash.build_base.sh" />
+      <item itemvalue="Bash.build.sh (3)" />
+      <item itemvalue="Bash.build.sh (4)" />
+      <item itemvalue="Bash.build.sh" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Bash.build.sh (5)" />
+        <item itemvalue="Bash.build.sh" />
         <item itemvalue="Bash.build.sh (4)" />
         <item itemvalue="Bash.build.sh (3)" />
+        <item itemvalue="Bash.build_base.sh" />
         <item itemvalue="Bash.build.sh (2)" />
-        <item itemvalue="Bash.build.sh (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -554,7 +696,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160291000" />
+    <option name="totallyTimeSpent" value="161474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -567,7 +709,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="-888" width="1317" height="838" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49275362" visible="true" weight="0.2690196" />
       <window_info id="Structure" order="1" sideWeight="0.5072464" side_tool="true" weight="0.30738038" />
@@ -580,7 +721,7 @@
       <window_info anchor="bottom" id="Run Dashboard" order="0" sideWeight="0.7678812" weight="0.30290458" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4992636" weight="0.28139535" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4992636" visible="true" weight="0.28077456" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -588,9 +729,9 @@
       <window_info anchor="bottom" id="Docker" order="8" weight="0.32790697" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49792874" visible="true" weight="0.2987552" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49792874" weight="0.2987552" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.23211876" side_tool="true" weight="0.3529412" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3280899" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32780084" />
       <window_info anchor="bottom" id="Spring" order="14" />
       <window_info anchor="bottom" id="Java Enterprise" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -622,13 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/build_base.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="4" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-thrift-service/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
@@ -644,24 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-edge-service/build.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -736,24 +856,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="20" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-image/nginx/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -794,17 +900,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course-edge-service/src/main/java/com/xujun/course/filter/CourseFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-          <folding>
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user-edge-service-client/src/main/java/com/xujun/user/client/LoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -839,27 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/course-edge-service/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/message/message_service.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway-zuul/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api-gateway-zuul/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -870,20 +944,6 @@
     <entry file="file://$PROJECT_DIR$/api-gateway-zuul/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-dubbo-service/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="66" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/course-dubbo-service/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
@@ -897,20 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="427">
           <caret line="98" column="12" selection-start-line="75" selection-start-column="4" selection-end-line="98" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-dubbo-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/course-edge-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -943,31 +989,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway-zuul/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/services.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="373">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/k8s-yaml/service-config/course-service.yaml">
+    <entry file="file://$PROJECT_DIR$/course-edge-service/src/main/java/com/xujun/course/filter/CourseFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="60">
+          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-edge-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/k8s-yaml/service-config/message-service.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="25" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="38" selection-end-column="25" />
+        <state relative-caret-position="449">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-edge-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/k8s-yaml/service-config/course-service.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="36" column="43" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/k8s-yaml/service-config/user-service.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="785">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway-zuul/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway-zuul/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-dubbo-service/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-dubbo-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course-edge-service/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/build_base.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/message/message_service.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-382">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message-thrift-python-service/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
