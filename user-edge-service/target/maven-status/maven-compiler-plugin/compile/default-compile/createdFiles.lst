@@ -1,0 +1,10 @@
+com/xujun/user/redis/RedisClient.class
+com/xujun/user/controller/UserController.class
+com/xujun/user/response/LoginResponse.class
+com/xujun/user/response/Response.class
+com/xujun/user/thrift/ServicePeovider$1.class
+com/xujun/user/thrift/ServicePeovider.class
+com/xujun/user/Utils/FastJsonRedisSerializer.class
+com/xujun/user/redis/RedisConfig.class
+com/xujun/user/thrift/ServicePeovider$ServiceType.class
+com/xujun/user/UserEdgeServiceApplication.class

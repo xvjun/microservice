@@ -1,0 +1,4 @@
+FROM 172.27.160.34:8090/micro-service/python:3.6
+MAINTAINER xujun 15604288825@163.com
+
+RUN pip install thrift

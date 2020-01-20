@@ -94,20 +94,28 @@ public class UserController {
                              @RequestParam(value = "mobile", required = false) String mobile,
                              @RequestParam(value = "email", required = false) String email,
                              @RequestParam("verifyCode") String verifyCode){
+        boolean flag = false;
         if(StringUtils.isBlank(mobile) && StringUtils.isBlank(email)){
             return Response.MOBILE_OR_EMAIL_REQUIRED;
         }
         if(StringUtils.isNotBlank(mobile)){
             String redisCode = redisClient.get(mobile);
-            if(!verifyCode.equals(redisCode)){
-                return Response.VERIFY_CODE_INVALID;
-            }
-        }else{
-            String redisCode = redisClient.get(email);
-            if(!verifyCode.equals(redisCode)){
-                return Response.VERIFY_CODE_INVALID;
+            if(redisCode != null){
+                if(verifyCode.equals(redisCode)){
+                    flag = true;
+                }
             }
         }
+        if(flag == false || StringUtils.isNotBlank(email)){
+            String redisCode = redisClient.get(email);
+            if(redisCode != null){
+                if(verifyCode.equals(redisCode)){
+                    flag = true;
+                }
+            }
+        }
+
+        if(!flag){return Response.VERIFY_CODE_INVALID;}
         UserInfo userInfo = new UserInfo();
         userInfo.setUsername(username);
         userInfo.setPassword(MD5(password));
