@@ -33,6 +33,9 @@ spec:
       - name: course-service
         image: 172.27.160.10:8090/micro-service/course-service:latest
         imagePullPolicy: Always
+        args:
+          - "--mysql.address=172.27.233.58"
+          - "--zookeeper.address=172.27.233.58"
         resources:
           limits:
             cpu: 1000m
@@ -42,10 +45,15 @@ spec:
       - name: course-edge-service
         image: 172.27.160.10:8090/micro-service/course-edge-service:latest
         imagePullPolicy: Always
+        args:
+          - "--zookeeper.address=172.27.233.58"
+          - "--zuul.service=172.27.233.58:30085"
         resources:
           limits:
             cpu: 1000m
             memory: 1024M
         ports:
         - containerPort: 8084
+      imagePullSecrets:
+        - name: mysecret
 

@@ -39,6 +39,8 @@ spec:
       - name: user-service
         image: 172.27.160.10:8090/micro-service/user-service:latest
         imagePullPolicy: Always
+        args:
+          - "--mysql.address=172.27.233.58"
         resources:
           limits:
             cpu: 1000m
@@ -48,10 +50,14 @@ spec:
       - name: user-edge-service
         image: 172.27.160.10:8090/micro-service/user-edge-service:latest
         imagePullPolicy: Always
+        args:
+          - "--redis.address=172.27.233.58"
         resources:
           limits:
             cpu: 1000m
             memory: 1024M
         ports:
         - containerPort: 8082
+      imagePullSecrets:
+        - name: mysecret
 
