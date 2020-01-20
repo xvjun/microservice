@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: course-service
-  name: course-service
+  name: course-edge-service
   namespace: micro-service
 spec:
   ports:

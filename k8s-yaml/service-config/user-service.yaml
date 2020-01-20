@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: user-service
-  name: user-service
+  name: user-edge-service
   namespace: micro-service
 spec:
   ports:
