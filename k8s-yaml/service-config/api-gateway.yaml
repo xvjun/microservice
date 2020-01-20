@@ -10,7 +10,7 @@ spec:
   - port: 80
     protocol: TCP
     targetPort: 8085
-    nodePort: 80
+    nodePort: 30085
   selector:
     app: api-gateway
   type: NodePort
@@ -41,5 +41,7 @@ spec:
         ports:
         - containerPort: 8085
           name: port1
+      imagePullSecrets:
+        - name: mysecret
       
 

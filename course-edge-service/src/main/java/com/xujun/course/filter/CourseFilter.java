@@ -13,16 +13,14 @@ import javax.servlet.http.HttpServletResponse;
 @WebFilter(filterName="CourseFilter", urlPatterns="/*")
 public class CourseFilter extends LoginFilter {
 
-    @Value("${user.edge.service.ip}")
-    private String UserEdgeServiceip;
+    @Value("${zuul.service}")
+    private String zuulService;
 
-    @Value("${user.edge.service.port}")
-    private String UserEdgeServiceport;
 
 
     @Override
     protected String UserEdgeServiceAddress() {
-        return UserEdgeServiceip +":"+ UserEdgeServiceport;
+        return zuulService;
     }
 
     @Override
