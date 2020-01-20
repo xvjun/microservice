@@ -2,393 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbdf7fe4-2f51-4e34-a268-e365c0043a7f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api-gateway-zuul/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway-zuul/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway-zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway-zuul/src/main/java/com/xujun/zuul/ApiGatewayZuulServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway-zuul/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway-zuul/target/api-gateway-zuul-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway-zuul/target/api-gateway-zuul-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway-zuul/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway-zuul/target/classes/com/xujun/zuul/ApiGatewayZuulServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway-zuul/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/classes/com/xujun/course/dto/CourseDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/classes/com/xujun/course/service/ICourseService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/course-dubbo-service-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/src/main/java/com/xujun/course/CourseDubboServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/src/main/java/com/xujun/course/mapper/CourseMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/src/main/java/com/xujun/course/service/CourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/src/main/java/com/xujun/course/thrift/ServicePeovider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/target/classes/com/xujun/course/CourseDubboServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/target/classes/com/xujun/course/mapper/CourseMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/target/classes/com/xujun/course/service/CourseServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/target/classes/com/xujun/course/thrift/ServicePeovider$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/target/classes/com/xujun/course/thrift/ServicePeovider$ServiceType.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/target/classes/com/xujun/course/thrift/ServicePeovider.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/target/course-dubbo-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/target/course-dubbo-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-dubbo-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/src/main/java/com/xujun/course/CourseEdgeServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/src/main/java/com/xujun/course/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/src/main/java/com/xujun/course/filter/CourseFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/target/classes/com/xujun/course/CourseEdgeServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/target/classes/com/xujun/course/controller/CourseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/target/classes/com/xujun/course/filter/CourseFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/target/course-edge-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/target/course-edge-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/course-edge-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-image/mysql/data/binlog.000008" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-image/mysql/data/binlog.000009" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-image/mysql/data/binlog.000010" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-image/mysql/data/binlog.000011" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-image/mysql/data/binlog.000012" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-image/mysql/data/binlog.000013" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-image/nginx/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/Dockerfile.base" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-thrift-python-service/build_base.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/message-thrift-service-api/target/message-thrift-service-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/services.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service-client/target/classes/com/xujun/user/client/LoginFilter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service-client/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service-client/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service-client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service-client/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service-client/target/user-edge-service-client-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/UserEdgeServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service/target/user-edge-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-edge-service/target/user-edge-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient$getTeacherById_call.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$getTeacherById$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$getTeacherById.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Processor$getTeacherById.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getTeacherById_args$_Fields.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getTeacherById_args$getTeacherById_argsStandardScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getTeacherById_args$getTeacherById_argsStandardSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getTeacherById_args$getTeacherById_argsTupleScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getTeacherById_args$getTeacherById_argsTupleSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getTeacherById_args.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getTeacherById_result$_Fields.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getTeacherById_result$getTeacherById_resultStandardScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getTeacherById_result$getTeacherById_resultStandardSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getTeacherById_result$getTeacherById_resultTupleScheme.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getTeacherById_result$getTeacherById_resultTupleSchemeFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getTeacherById_result.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/dto/TeacherDTO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service-api/target/user-thrift-service-api-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/com/xujun/user/UserTfriftServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/user-thrift-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-thrift-service/target/user-thrift-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-dubbo-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/course-dubbo-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_1.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_1.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_10.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_10.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_2.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_3.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_3.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_4.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_4.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_5.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_5.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_6.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_6.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_7.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_7.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_8.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_8.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_9.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/#innodb_temp/temp_9.ibt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/binlog.000007" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/binlog.000007" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/binlog.index" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/binlog.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/db_user/pe_user.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/db_user/pe_user.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/mysql.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/mysql.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/undo_001" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/undo_001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/data/undo_002" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/undo_002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/mysql/mysql-start.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/mysql-start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-image/redis/data/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/redis/data/dump.rdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-python-service/message/message_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-python-service/message/message_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/message-thrift-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/message-thrift-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service-client/src/main/java/com/xujun/user/client/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service-client/src/main/java/com/xujun/user/client/LoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/ServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/UserEdgeServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/src/main/java/com.xujun.user/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/META-INF/user-edge-service.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/ServiceApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/Utils/FastJsonRedisSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/Utils/FastJsonRedisSerializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/redis/RedisClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/redis/RedisClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/redis/RedisConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/redis/RedisConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/response/LoginResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/response/LoginResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/response/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/response/Response.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/thrift/ServicePeovider$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/thrift/ServicePeovider$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/thrift/ServicePeovider$ServiceType.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/thrift/ServicePeovider$ServiceType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/thrift/ServicePeovider.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/target/classes/com/xujun/user/thrift/ServicePeovider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/redis/data/dump.rdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/redis/redis.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/redis/redisStart.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-edge-service/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/user-edge-service/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/src/main/java/com/xujun/thrift/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/src/main/java/com/xujun/thrift/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/src/main/java/com/xujun/thrift/user/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/src/main/java/com/xujun/thrift/user/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$UserInfoStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$UserInfoStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$UserInfoStandardSchemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$UserInfoStandardSchemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$UserInfoTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$UserInfoTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$UserInfoTupleSchemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$UserInfoTupleSchemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient$Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient$Factory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient$getUserById_call.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient$getUserById_call.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient$getUserByName_call.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient$getUserByName_call.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient$regiserUser_call.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient$regiserUser_call.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncIface.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncIface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$getUserById$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$getUserById$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$getUserById.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$getUserById.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$getUserByName$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$getUserByName$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$getUserByName.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$getUserByName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$regiserUser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$regiserUser$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$regiserUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor$regiserUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$AsyncProcessor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Client$Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Client$Factory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Iface.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Iface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Processor$getUserById.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Processor$getUserById.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Processor$getUserByName.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Processor$getUserByName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Processor$regiserUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Processor$regiserUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Processor.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$Processor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$getUserById_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$getUserById_argsStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$getUserById_argsStandardSchemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$getUserById_argsStandardSchemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$getUserById_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$getUserById_argsTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$getUserById_argsTupleSchemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args$getUserById_argsTupleSchemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_args.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$getUserById_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$getUserById_resultStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$getUserById_resultStandardSchemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$getUserById_resultStandardSchemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$getUserById_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$getUserById_resultTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$getUserById_resultTupleSchemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result$getUserById_resultTupleSchemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserById_result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$getUserByName_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$getUserByName_argsStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$getUserByName_argsStandardSchemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$getUserByName_argsStandardSchemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$getUserByName_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$getUserByName_argsTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$getUserByName_argsTupleSchemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args$getUserByName_argsTupleSchemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_args.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$getUserByName_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$getUserByName_resultStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$getUserByName_resultStandardSchemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$getUserByName_resultStandardSchemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$getUserByName_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$getUserByName_resultTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$getUserByName_resultTupleSchemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result$getUserByName_resultTupleSchemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$getUserByName_result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$regiserUser_argsStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$regiserUser_argsStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$regiserUser_argsStandardSchemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$regiserUser_argsStandardSchemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$regiserUser_argsTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$regiserUser_argsTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$regiserUser_argsTupleSchemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args$regiserUser_argsTupleSchemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_args.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$_Fields.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$_Fields.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$regiserUser_resultStandardScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$regiserUser_resultStandardScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$regiserUser_resultStandardSchemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$regiserUser_resultStandardSchemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$regiserUser_resultTupleScheme.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$regiserUser_resultTupleScheme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$regiserUser_resultTupleSchemeFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result$regiserUser_resultTupleSchemeFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService$regiserUser_result.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/target/classes/com/xujun/thrift/user/dto/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service-api/thrift/user_service.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service-api/thrift/user_service.thrift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/ServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/UserTfriftServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service/src/main/java/com/xujun/user/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/com/xujun/user/ServiceApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/com/xujun/user/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/com/xujun/user/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/com/xujun/user/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-thrift-service/target/classes/com/xujun/user/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/CreateMysqlByDocker.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/conf/my.cnf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_1.ibt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_10.ibt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_2.ibt" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/db_course/pr_user_course.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_3.ibt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_4.ibt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_5.ibt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_6.ibt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_7.ibt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_8.ibt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/#innodb_temp/temp_9.ibt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/auto.cnf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/binlog.000004" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/binlog.000005" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/binlog.000006" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/binlog.index" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/ca-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/ca.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/client-cert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/client-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/db_user/pe_user.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/db_course/pe_course.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/ib_buffer_pool" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/ib_logfile0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/ib_logfile1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/ibdata1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/ibtmp1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/mysql.ibd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/mysql/general_log.CSM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/mysql/general_log.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/course-dubbo-service-api/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/mysql/general_log_201.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/mysql/slow_log.CSM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/mysql/slow_log.CSV" beforeDir="false" afterPath="$PROJECT_DIR$/course-edge-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/mysql/slow_log_202.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/accounts_138.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/cond_instances_77.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/data_lock_waits_154.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/data_locks_153.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_errors_su_132.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_errors_su_133.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_errors_su_134.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_errors_su_135.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_errors_su_136.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_cu_104.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_hi_105.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_hi_106.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_su_107.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_su_108.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_su_109.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_su_110.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_stages_su_111.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_112.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_113.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_114.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_115.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_116.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_117.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_118.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_119.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_120.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_121.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_122.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_statement_123.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_124.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_125.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_126.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_127.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_128.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_129.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_130.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_transacti_131.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_cur_78.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_his_79.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_his_80.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_sum_81.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_sum_82.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_sum_83.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_sum_84.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_sum_85.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/events_waits_sum_86.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/file_instances_87.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/file_summary_by__88.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/file_summary_by__89.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/global_status_172.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/global_variables_175.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/host_cache_90.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/hosts_139.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/keyring_keys_145.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/log_status_165.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/memory_summary_b_147.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/memory_summary_b_148.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/memory_summary_b_149.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/memory_summary_b_150.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/memory_summary_g_146.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/metadata_locks_152.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/mutex_instances_91.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/objects_summary__92.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/performance_time_93.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/persisted_variab_178.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/prepared_stateme_166.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_appl_158.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_appl_159.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_appl_160.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_appl_161.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_appl_163.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_appl_164.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_conn_155.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_conn_157.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_grou_156.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/replication_grou_162.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/rwlock_instances_94.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/session_account__144.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/session_connect__143.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/session_status_173.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/session_variable_176.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/setup_actors_95.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/setup_consumers_96.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/setup_instrument_97.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/setup_objects_98.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/setup_threads_99.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/socket_instances_140.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/socket_summary_b_141.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/socket_summary_b_142.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/status_by_accoun_168.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/status_by_host_169.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/status_by_thread_170.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/status_by_user_171.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/table_handles_151.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/table_io_waits_s_100.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/table_io_waits_s_101.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/table_lock_waits_102.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/threads_103.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/user_defined_fun_179.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/user_variables_b_167.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/users_137.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/variables_by_thr_174.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/performance_schema/variables_info_177.sdi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/private_key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/public_key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/server-cert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/server-key.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/sys/sys_config.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker-image/mysql/data/db_user/pe_teacher.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/undo_001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-thrift-service/target/classes/mysql/data/undo_002" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -413,19 +27,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/k8s-yaml/service-config/api-gateway.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="39" column="25" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="39" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -457,20 +71,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/k8s-yaml/service-config/user-service.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="310">
               <caret line="53" column="14" selection-start-line="50" selection-start-column="10" selection-end-line="53" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/course-dubbo-service/build.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -490,6 +95,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="427">
               <caret line="98" column="12" selection-start-line="75" selection-start-column="4" selection-end-line="98" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api-gateway-zuul/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -578,11 +192,11 @@
         <option value="$PROJECT_DIR$/course-edge-service/src/main/java/com/xujun/course/filter/CourseFilter.java" />
         <option value="$PROJECT_DIR$/course-edge-service/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/docker-image/nginx/nginx.conf" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/k8s-yaml/service-config/api-gateway.yaml" />
         <option value="$PROJECT_DIR$/k8s-yaml/service-config/course-service.yaml" />
         <option value="$PROJECT_DIR$/k8s-yaml/service-config/message-service.yaml" />
         <option value="$PROJECT_DIR$/k8s-yaml/service-config/user-service.yaml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -662,6 +276,32 @@
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway-zuul" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice" type="462c0819:PsiDirectoryNode" />
+              <item name="api-gateway-zuul" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservice" type="b2602c69:ProjectViewProjectNode" />
@@ -937,12 +577,12 @@
       <workItem from="1578374031749" duration="3931000" />
       <workItem from="1578888671420" duration="1411000" />
       <workItem from="1578894614228" duration="10407000" />
-      <workItem from="1579500094279" duration="939000" />
+      <workItem from="1579500094279" duration="1215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159364000" />
+    <option name="totallyTimeSpent" value="159640000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1254,13 +894,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/message-thrift-python-service/message/message_service.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1285,13 +918,6 @@
     <entry file="file://$PROJECT_DIR$/api-gateway-zuul/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-gateway-zuul/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user-thrift-service/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -1361,6 +987,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="53" column="14" selection-start-line="50" selection-start-column="10" selection-end-line="53" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api-gateway-zuul/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
