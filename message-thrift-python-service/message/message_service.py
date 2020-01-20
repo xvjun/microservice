@@ -1,4 +1,8 @@
-# coding: utf-8
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import sys
+sys.path.append("/")
 from message.api import MessageService
 from thrift.transport import TSocket
 from thrift.transport import TTransport

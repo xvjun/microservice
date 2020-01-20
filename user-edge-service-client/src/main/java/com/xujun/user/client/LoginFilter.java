@@ -50,11 +50,11 @@ public abstract class LoginFilter implements Filter {
                 userDTO = requestUserInfo(token);
                 if(userDTO != null){
                     cache.put(token, userDTO);
-                }
+                 }
             }
         }
         if(userDTO == null){
-            httpServletResponse.sendRedirect("http://127.0.0.1:8082/user/login");
+            httpServletResponse.sendRedirect("http://"+ UserEdgeServiceAddress() +"/user/login");
             return;
         }
 
@@ -65,10 +65,12 @@ public abstract class LoginFilter implements Filter {
 
     }
 
+    protected abstract String UserEdgeServiceAddress();
+
     protected abstract void login(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse, UserDTO userDTO);
 
     private UserDTO requestUserInfo(String token){
-        String url = "http://127.0.0.1:8082/user/authentication";
+        String url = "http://"+ UserEdgeServiceAddress() +"/user/authentication";
         HttpClient client = new DefaultHttpClient();
         HttpPost post = new HttpPost(url);
         post.addHeader("token", token);

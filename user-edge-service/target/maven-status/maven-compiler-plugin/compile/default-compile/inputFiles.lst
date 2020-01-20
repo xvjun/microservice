@@ -1,0 +1,8 @@
+/Users/xujun/Project/docker_k8s_project/microservice/user-edge-service/src/main/java/com.xujun.user/controller/UserController.java
+/Users/xujun/Project/docker_k8s_project/microservice/user-edge-service/src/main/java/com.xujun.user/Utils/FastJsonRedisSerializer.java
+/Users/xujun/Project/docker_k8s_project/microservice/user-edge-service/src/main/java/com.xujun.user/redis/RedisConfig.java
+/Users/xujun/Project/docker_k8s_project/microservice/user-edge-service/src/main/java/com.xujun.user/response/LoginResponse.java
+/Users/xujun/Project/docker_k8s_project/microservice/user-edge-service/src/main/java/com.xujun.user/thrift/ServicePeovider.java
+/Users/xujun/Project/docker_k8s_project/microservice/user-edge-service/src/main/java/com.xujun.user/UserEdgeServiceApplication.java
+/Users/xujun/Project/docker_k8s_project/microservice/user-edge-service/src/main/java/com.xujun.user/response/Response.java
+/Users/xujun/Project/docker_k8s_project/microservice/user-edge-service/src/main/java/com.xujun.user/redis/RedisClient.java
