@@ -30,21 +30,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/k8s-yaml/service-config/api-gateway.yaml">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-<<<<<<< HEAD
             <state relative-caret-position="156">
               <caret line="124" column="44" selection-start-line="124" selection-start-column="44" selection-end-line="124" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-=======
-            <state relative-caret-position="340">
-              <caret line="39" column="25" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="39" selection-end-column="25" />
->>>>>>> develop-xj
-=======
-            <state relative-caret-position="-155">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
->>>>>>> develop-xj
+
             </state>
           </provider>
         </entry>
@@ -77,14 +68,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/user-edge-service-client/pom.xml">
-=======
-        <entry file="file://$PROJECT_DIR$/k8s-yaml/service-config/message-service.yaml">
-=======
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
->>>>>>> develop-xj
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
               <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="39" />
