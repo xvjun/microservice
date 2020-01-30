@@ -1,0 +1,48 @@
+#!groovy
+pipeline {
+    agent any
+
+    enviroment {
+        RESPOSITORY="ssh://git@gitlab.4pd.io:xujun/microservice.git"
+        MODULE="user-edge-service"
+        SCRIPT_PATH="/Users/xujun/Project/docker_k8s_project/microservice/CICD/scripts"
+    }
+
+    stages {
+        stage('获得代码') {
+            steps {
+                echo "start feach code
+                git:${RESPOSITORY}"
+                deleteDir()
+                git "${RESPOSITORY}"
+            }
+        }
+
+        stage('代码静态分析') {
+                    steps {
+                        echo "start static check"
+                    }
+                }
+
+        stage('编译+单元测试') {
+            steps {
+                echo "start compile"
+                sh "mvn -U -pl ${MODULE} -am clean package"
+            }
+        }
+
+        stage('构建镜像') {
+            steps {
+                echo "start build image"
+                sh "${SCRIPT_PATH}/build-images.sh ${MODULE}"
+            }
+        }
+
+        stage('发布服务') {
+            steps {
+                echo "start update deploy"
+                sh "${SCRIPT_PATH}/deploy.sh user-service-deployment ${MODULE}"
+            }
+        }
+    }
+}
